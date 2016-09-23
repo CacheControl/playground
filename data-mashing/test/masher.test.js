@@ -7,14 +7,16 @@ let USER2 = 'bcc856d8-caba-4e12-a750-7ad5b40db7d0'
 describe('Masher', () => {
   describe('countByUser', () => {
     it('returns a count of the users photos and videos (1)', (done) => {
-      masher.countMediaByUser(USER1, (data) => {
+      masher.countMediaByUser(USER1, (err, data) => {
+        if (err) return done(err)
         assert.deepEqual(data, { photos: 8, videos: 8 }, 'user1 has 8 photos and 8 videos')
         done()
       })
     })
     
     it('returns a count of the users photos and videos (2)', (done) => {
-      masher.countMediaByUser(USER1, (data) => {
+      masher.countMediaByUser(USER1, (err, data) => {
+        if (err) return done(err)
         assert.deepEqual(data, { photos: 11, videos: 7 }, 'user2 has 11 photos and 7 videos')
         done()
       })

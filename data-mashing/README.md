@@ -1,5 +1,26 @@
 # Data Mashing
 
+## Goal
+
+This exercise presents several failing tests ([./test/masher.test.js](./test/masher.test.js)).  In order to make these tests pass, ([./masher.js](./masher.js)) must be updated to combination data from 3 different services.
+
+- The _user-service_ provides a list of users.  It runs on port ``3000``
+- The _photo-service_ provides photo information, including photos by user. It runs on port ``3001``
+- The _video-service_ provides video information, including videos by user.  It runs on port ``3002``
+
+You will need to make api calls to these 3 services and combine the responses to get all tests passing.
+
+## Installation
+
+```
+nvm install v6.6.0  # node 6.6 required
+```
+
+```bash
+nvm use
+npm install
+```
+
 ## Usage
 
 ```bash
