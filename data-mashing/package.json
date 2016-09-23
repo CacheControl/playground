@@ -1,0 +1,25 @@
+{
+  "name": "data-mashing",
+  "version": "1.0.0",
+  "description": "collecting, mashing, and aggregating data from multiple sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.shuttercorp.net/chamm/interviews"
+  },
+  "keywords": [
+    "interviews",
+    "interviewing"
+  ],
+  "author": "Cache Hamm <chamm@shutterstock.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "mocha": "3.0.2"
+  },
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}

@@ -1,0 +1,41 @@
+[{
+  "id": "e88b4a1c-bedf-45a1-a1ac-5e72fc57ac19",
+  "email": "egarrett0@mac.com",
+  "gender": "Male"
+}, {
+  "id": "fe6fe3e0-f0fb-4710-b512-6a2a3e68d99b",
+  "email": "cgutierrez1@usda.gov",
+  "gender": "Male"
+}, {
+  "id": "6f87e286-651b-4598-906c-6b98fc5400ff",
+  "email": "vduncan2@csmonitor.com",
+  "gender": "Male"
+}, {
+  "id": "85c35005-bea6-4ec4-aec4-6acc57c62c94",
+  "email": "rgarcia3@boston.com",
+  "gender": "Male"
+}, {
+  "id": "78208ab9-bdba-436e-a35b-4e4cea12fb3f",
+  "email": "cjacobs4@boston.com",
+  "gender": "Male"
+}, {
+  "id": "955ae88c-ddf6-469e-8b4b-dc2045cab9fa",
+  "email": "cadams5@wired.com",
+  "gender": "Female"
+}, {
+  "id": "ea5f66d8-f864-49bb-a68e-0209b7827942",
+  "email": "pharper6@geocities.com",
+  "gender": "Female"
+}, {
+  "id": "22a22ee2-2535-4271-9e9b-7e6011424953",
+  "email": "msims7@walmart.com",
+  "gender": "Male"
+}, {
+  "id": "ef288e41-81f8-4815-919e-1ec3b224862f",
+  "email": "lperkins8@cargocollective.com",
+  "gender": "Female"
+}, {
+  "id": "bcc856d8-caba-4e12-a750-7ad5b40db7d0",
+  "email": "mmatthews9@nbcnews.com",
+  "gender": "Male"
+}]
