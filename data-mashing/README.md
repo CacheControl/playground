@@ -86,7 +86,7 @@ __GET /api/v1/users/:id/photos__ - retrieve photos by user id
 
 ### Video Service
 
-__GET /api/v1/photos__ - retrieve all videos
+__GET /api/v1/videos__ - retrieve all videos
 
 ```js
 [
@@ -101,7 +101,7 @@ __GET /api/v1/photos__ - retrieve all videos
 ]
 ```
 
-__GET /api/v1/videos/:id/photos__ - retrieve videos by user id
+__GET /api/v1/videos/:id/videos__ - retrieve videos by user id
 
 ```js
 [
