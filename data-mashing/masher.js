@@ -6,7 +6,7 @@
  * @returns {object.videos} video count
  */
 exports.countMediaByUser = (userId, cb) => {
-  setImmediate(cb, {
+  setImmediate(cb, null, {
     photos: 1,
     videos: 2
   })
@@ -21,5 +21,5 @@ exports.highestContributorByMediaType = (mediaType, cb) => {
   if (!['photos', 'videos'].includes(mediaType)) {
     return cb(new Error('mediaType must be "videos" or "photos"'))
   }
-  setImmediate(cb, 'randomUser')
+  setImmediate(cb, null, 'randomUser')
 }

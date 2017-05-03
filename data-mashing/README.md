@@ -17,7 +17,7 @@ nvm install v6.6.0  # node 6.6 required
 ```
 
 ```bash
-nvm use
+nvm use 6
 npm install
 ```
 
@@ -101,7 +101,7 @@ __GET /api/v1/photos__ - retrieve all videos
 ]
 ```
 
-__GET /api/v1/videos/:id/photos__ - retrieve videos by user id
+__GET /api/v1/users/:id/videos__ - retrieve videos by user id
 
 ```js
 [
